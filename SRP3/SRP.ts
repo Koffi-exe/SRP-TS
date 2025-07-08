@@ -50,7 +50,7 @@ class FileUploaderClass{
 const file:Ifile ={
     name:"profilePic",
     type:"Image",           // the string must be Image
-    size: 6*1024*1024       // make it less than 5*1024*102
+    size: 2*1024*1024       // make it less than 5*1024*102
 }
 
 new FileUploaderClass(file).execute()
