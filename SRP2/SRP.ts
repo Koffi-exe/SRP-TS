@@ -58,7 +58,7 @@ class Confirmation {
   constructor(private order: Iorder, private total: number) {}
   sendMail() {
     console.log(
-      `📧 Email sent to ${this.order.userEmail}: Your order of ₹${this.total} was successful`
+      `Email sent to ${this.order.userEmail}: Your order of ₹${this.total} was successful`
     );
   }
 }
