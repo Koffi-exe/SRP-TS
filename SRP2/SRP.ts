@@ -78,7 +78,6 @@ class PrintSummary {
 
 
 // Exectuing class
-
 class PlaceOrder {
   constructor(private inventory: Inventory) {}
 
@@ -98,7 +97,6 @@ class PlaceOrder {
   }
 }
 
-
 // using
 const invet = new Inventory()
 const order = {
@@ -107,4 +105,4 @@ const order = {
   userEmail: "adithya@example.com"
 }
 
-const place = new PlaceOrder(invet).execute(order)
+new PlaceOrder(invet).execute(order)
