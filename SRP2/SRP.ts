@@ -71,7 +71,7 @@ class PrintSummary {
   ) {}
   printSummary() {
     console.log(
-      `✔️ Order Placed: ${this.order.quantity}x ${this.product.name}, Total: ₹${this.total}`
+      `Order Placed: ${this.order.quantity}x ${this.product.name}, Total: ₹${this.total}`
     );
   }
 }
